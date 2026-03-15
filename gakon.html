@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ガコンッ — おふとんだいすきくらぶ</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300;400;500&family=Noto+Sans+JP:wght@300;400&family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+<style>
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+:root {
+  --bg: #f7f4ee; --bg2: #f0ece3; --text: #2a2824;
+  --text-muted: #6a6660; --text-faint: #aaa89e;
+  --accent: #7a6a52; --border: #ddd9d0; --dark: #1e1c18;
+}
+html { scroll-behavior: smooth; }
+body {
+  background: var(--bg); color: var(--text);
+  font-family: 'Noto Serif JP', serif; font-weight: 300;
+  line-height: 1.8; overflow-x: hidden;
+}
+nav {
+  position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 20px 52px;
+  background: rgba(247,244,238,0.92); backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--border);
+}
+.nav-logo {
+  font-family: 'Noto Serif JP', serif; font-size: 13px; font-weight: 400;
+  letter-spacing: 0.12em; color: var(--text); text-decoration: none;
+}
+.nav-back {
+  font-family: 'Noto Sans JP', sans-serif; font-size: 11px; font-weight: 300;
+  letter-spacing: 0.18em; color: var(--text-muted); text-decoration: none;
+  transition: color 0.2s;
+}
+.nav-back:hover { color: var(--text); }
+
+.essay-hero {
+  min-height: 50vh; display: flex; flex-direction: column;
+  justify-content: flex-end; padding: 140px 52px 64px;
+  border-bottom: 1px solid var(--border);
+}
+.essay-eyebrow {
+  font-family: 'EB Garamond', serif; font-size: 11px;
+  color: var(--text-faint); letter-spacing: 0.25em; margin-bottom: 24px;
+}
+.essay-title {
+  font-family: 'Noto Serif JP', serif;
+  font-size: clamp(32px, 5vw, 64px); font-weight: 300;
+  line-height: 1.4; letter-spacing: 0.04em; color: var(--dark);
+}
+.essay-body {
+  max-width: 660px; margin: 0 auto; padding: 80px 52px 120px;
+}
+.essay-body p {
+  font-size: 15px; line-height: 2.4; color: var(--text-muted);
+  margin-bottom: 2em; letter-spacing: 0.03em;
+}
+.essay-nav {
+  border-top: 1px solid var(--border);
+  padding: 52px; display: flex; justify-content: space-between; align-items: center;
+}
+.essay-nav a {
+  font-family: 'Noto Sans JP', sans-serif; font-size: 11px;
+  letter-spacing: 0.15em; color: var(--text-faint); text-decoration: none;
+  transition: color 0.2s;
+}
+.essay-nav a:hover { color: var(--text); }
+footer {
+  padding: 32px 52px; display: flex; justify-content: space-between;
+  align-items: center; border-top: 1px solid var(--border);
+  font-family: 'Noto Sans JP', sans-serif; font-size: 10px;
+  letter-spacing: 0.12em; color: var(--text-faint);
+}
+@media (max-width: 768px) {
+  nav { padding: 16px 22px; }
+  .essay-hero { padding: 100px 22px 48px; }
+  .essay-body { padding: 52px 22px 80px; }
+  .essay-nav { padding: 32px 22px; flex-direction: column; gap: 16px; text-align: center; }
+  footer { flex-direction: column; gap: 6px; text-align: center; padding: 24px 22px; }
+}
+
+</style>
+</head>
+<body>
+<nav>
+  <a href="index.html" class="nav-logo">おふとんだいすきくらぶ</a>
+  <a href="index.html#essay" class="nav-back">← Essay 一覧</a>
+</nav>
+
+<div class="essay-hero">
+  <div class="essay-eyebrow">Essay No.01</div>
+  <h1 class="essay-title">ガコンッ</h1>
+</div>
+
+<div class="essay-body">
+          <p>ばりクソつまらない日記を生み出してしまった昨日。戒め、というにはちょっと違うが、「仕事後のあなたがつまらないのなら、仕事前に書けばいいじゃない」と私が言ったので、起きてトイレに行って薬を飲んで、ガコンッ。</p>
+          <p>一月までの私は、美容を気にする女だった。朝イチは絶対に歯を磨いてからでないと水を飲むことができない人間だったが、そんなことも言ってられず、細菌まみれの水を飲むことに心が適応した。ガコンッ</p>
+          <p>思っているうちに、ほぼ寝たきりのまま、二月の下旬から「足腰がなんだか変だな？」と発熱。熱は下がり脳みそは元気なものの、腰と股関節の炎症がなかなか治らない。だよ。私の頭の中は、るるうに剣心に出てくる「斬馬刀」を振り回す左之助の映像でいっぱいになった。</p>
+          <p>顔も絶対に洗顔料をつけて朝と夜に洗い、化粧をしていないくてもメイク落としを使ったり、何種類かの美容液を使っていたものの、そもそも洗面台の前に立っていられないので、軽くしか顔を洗わないことに心が適応した。ガコンッ</p>
+          <p>風呂上がりには必ずヘアミルクをつけ、八割ほど乾いたところでヘアオイルをしていたのだが、そもそも毎日風呂に入れなくなった。風呂キャンとパサパサの髪に心が適応した。ガコンッ</p>
+          <p>オンラインミーティングとはいえ、画面に映る自分がブスなのが許せなかった。コンタクトをして、NOSなどの画面越しにもわかるようなドブカスメガネ状態でもミーティングに出ることに心が適応した。ガコンッ</p>
+          <p>好きに動けないこともそうだけど、身なりに気を使う余裕がないことが何よりもそうだ。洗濯物もゴミも馬鹿みたいに溜まっているけれど、この二週間ほど疎かにした髪の毛や肌の回復にはどのくらい時間がかかるのか。しっかり手入れをして、なんとなく雰囲気で魔化するくらいの生きていたのに。</p>
+          <p>ふと、おそらくフィジギフであるうつるんつるんの肌を持つ男の友人を思い出した。あいつは寝込んで顔洗えなくてもずっとツヤヤピカピカなんだろうな。クソ腹立つわ〜。</p>
+</div>
+
+<div class="essay-nav">
+  <span></span>
+  <a href="index.html#essay">Essay 一覧</a>
+  <a href="independent-girl.html">Independent Girl →</a>
+</div>
+
+<footer>
+  <span>© 2026 真緒 / おふとんだいすきくらぶ</span>
+  <span>Osaka / Hokkaido</span>
+</footer>
+</body>
+</html>

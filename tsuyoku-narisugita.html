@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>強くなりすぎた — おふとんだいすきくらぶ</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300;400;500&family=Noto+Sans+JP:wght@300;400&family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+<style>
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+:root {
+  --bg: #f7f4ee; --bg2: #f0ece3; --text: #2a2824;
+  --text-muted: #6a6660; --text-faint: #aaa89e;
+  --accent: #7a6a52; --border: #ddd9d0; --dark: #1e1c18;
+}
+html { scroll-behavior: smooth; }
+body {
+  background: var(--bg); color: var(--text);
+  font-family: 'Noto Serif JP', serif; font-weight: 300;
+  line-height: 1.8; overflow-x: hidden;
+}
+nav {
+  position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 20px 52px;
+  background: rgba(247,244,238,0.92); backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--border);
+}
+.nav-logo {
+  font-family: 'Noto Serif JP', serif; font-size: 13px; font-weight: 400;
+  letter-spacing: 0.12em; color: var(--text); text-decoration: none;
+}
+.nav-back {
+  font-family: 'Noto Sans JP', sans-serif; font-size: 11px; font-weight: 300;
+  letter-spacing: 0.18em; color: var(--text-muted); text-decoration: none;
+  transition: color 0.2s;
+}
+.nav-back:hover { color: var(--text); }
+
+.essay-hero {
+  min-height: 50vh; display: flex; flex-direction: column;
+  justify-content: flex-end; padding: 140px 52px 64px;
+  border-bottom: 1px solid var(--border);
+}
+.essay-eyebrow {
+  font-family: 'EB Garamond', serif; font-size: 11px;
+  color: var(--text-faint); letter-spacing: 0.25em; margin-bottom: 24px;
+}
+.essay-title {
+  font-family: 'Noto Serif JP', serif;
+  font-size: clamp(32px, 5vw, 64px); font-weight: 300;
+  line-height: 1.4; letter-spacing: 0.04em; color: var(--dark);
+}
+.essay-body {
+  max-width: 660px; margin: 0 auto; padding: 80px 52px 120px;
+}
+.essay-body p {
+  font-size: 15px; line-height: 2.4; color: var(--text-muted);
+  margin-bottom: 2em; letter-spacing: 0.03em;
+}
+.essay-nav {
+  border-top: 1px solid var(--border);
+  padding: 52px; display: flex; justify-content: space-between; align-items: center;
+}
+.essay-nav a {
+  font-family: 'Noto Sans JP', sans-serif; font-size: 11px;
+  letter-spacing: 0.15em; color: var(--text-faint); text-decoration: none;
+  transition: color 0.2s;
+}
+.essay-nav a:hover { color: var(--text); }
+footer {
+  padding: 32px 52px; display: flex; justify-content: space-between;
+  align-items: center; border-top: 1px solid var(--border);
+  font-family: 'Noto Sans JP', sans-serif; font-size: 10px;
+  letter-spacing: 0.12em; color: var(--text-faint);
+}
+@media (max-width: 768px) {
+  nav { padding: 16px 22px; }
+  .essay-hero { padding: 100px 22px 48px; }
+  .essay-body { padding: 52px 22px 80px; }
+  .essay-nav { padding: 32px 22px; flex-direction: column; gap: 16px; text-align: center; }
+  footer { flex-direction: column; gap: 6px; text-align: center; padding: 24px 22px; }
+}
+
+</style>
+</head>
+<body>
+<nav>
+  <a href="index.html" class="nav-logo">おふとんだいすきくらぶ</a>
+  <a href="index.html#essay" class="nav-back">← Essay 一覧</a>
+</nav>
+
+<div class="essay-hero">
+  <div class="essay-eyebrow">Essay No.03</div>
+  <h1 class="essay-title">強くなりすぎた</h1>
+</div>
+
+<div class="essay-body">
+          <p>○と○の曲の中に「夢幻クライマックス」がある。解散間近に発売されたその曲は、一言で言えば「なぜ売れないんだ」という曲だ。「抱きしめても壊れないくらい、強くなりすぎた」という歌詞があるのだが、本当にそう。強すぎた。</p>
+          <p>アイドルが憧れるアイドルであり、ハロプロ内での王者として君臨し、フタクたちも「なぜ売れないんだ」と繰り返し、当時の事務所批判を繰り返していたかもしれない。なぜ売らない理由があるのだと私は悟っている。</p>
+          <p>話は変わるが、おそらくインフルエンザを患って大体七日間が過ぎた。腰痛・股関節痛がひどすぎて立ち上がれず、歩けず、病院に行けなかった。連絡もとれず、独身恋人なし女だ。家族は遠方におり、気兼ねなく物資を届けてようかという友人の中には物資を申し訳なくて申し訳ない、と言ってもいえ、そんな時間を使わせなんんて申し訳ない。金を払うとはいいえ。甘えられた者もいたか、金を払うとはいえ。甘えられた人間はいない。長女だ。</p>
+          <p>一昨日くらいに熱は完全に下がったものの、入れ替わるように股関節痛がひどくなった。歩けない日々が続く。だが、私は一人で強く生きている女だ。</p>
+          <p>仕事で使っているキャスター付きの椅子を車椅子のようにし、ゴロゴロゴロゴロと鳴らしながら股関節痛がひどくなった。ベッドとトイレとキッチンを往復することを思いついた。こいつで移動するようになった一日目に、小さな段差をことでビタ着してしまった。</p>
+          <p>この椅子がなければ私はどうなっていたかもしれない。大量にある空きペットボトルに尿をして配していた可能性も、ネットスーパーでオムツを買っていた可能性もある。マッチングアプリで男を手配していた可能性もある。それくらい立つ上がることがしんどかった。</p>
+          <p>けれど私は日頃創意工夫して生きているから、この椅子を足代わりにすることを思いついた。足の筋肉は消えているだろうが、上腕二頭筋は私の心と同じくらいましくなった。</p>
+          <p>今一番の問題は、もう着替えがないことだ。パジャマや部屋着は全て使い果たした。最後のスウェットと、普段着の中でも一番どうでもいい黄土色のカーディガン。パンツがもうあと二三日。着替えたいが着替えがない。</p>
+</div>
+
+<div class="essay-nav">
+  <a href="independent-girl.html">← Independent Girl</a>
+  <a href="index.html#essay">Essay 一覧</a>
+  <a href="futomomo-kayui.html">太ももが痒い →</a>
+</div>
+
+<footer>
+  <span>© 2026 真緒 / おふとんだいすきくらぶ</span>
+  <span>Osaka / Hokkaido</span>
+</footer>
+</body>
+</html>

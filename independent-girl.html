@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Independent Girl — おふとんだいすきくらぶ</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300;400;500&family=Noto+Sans+JP:wght@300;400&family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+<style>
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+:root {
+  --bg: #f7f4ee; --bg2: #f0ece3; --text: #2a2824;
+  --text-muted: #6a6660; --text-faint: #aaa89e;
+  --accent: #7a6a52; --border: #ddd9d0; --dark: #1e1c18;
+}
+html { scroll-behavior: smooth; }
+body {
+  background: var(--bg); color: var(--text);
+  font-family: 'Noto Serif JP', serif; font-weight: 300;
+  line-height: 1.8; overflow-x: hidden;
+}
+nav {
+  position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 20px 52px;
+  background: rgba(247,244,238,0.92); backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--border);
+}
+.nav-logo {
+  font-family: 'Noto Serif JP', serif; font-size: 13px; font-weight: 400;
+  letter-spacing: 0.12em; color: var(--text); text-decoration: none;
+}
+.nav-back {
+  font-family: 'Noto Sans JP', sans-serif; font-size: 11px; font-weight: 300;
+  letter-spacing: 0.18em; color: var(--text-muted); text-decoration: none;
+  transition: color 0.2s;
+}
+.nav-back:hover { color: var(--text); }
+
+.essay-hero {
+  min-height: 50vh; display: flex; flex-direction: column;
+  justify-content: flex-end; padding: 140px 52px 64px;
+  border-bottom: 1px solid var(--border);
+}
+.essay-eyebrow {
+  font-family: 'EB Garamond', serif; font-size: 11px;
+  color: var(--text-faint); letter-spacing: 0.25em; margin-bottom: 24px;
+}
+.essay-title {
+  font-family: 'Noto Serif JP', serif;
+  font-size: clamp(32px, 5vw, 64px); font-weight: 300;
+  line-height: 1.4; letter-spacing: 0.04em; color: var(--dark);
+}
+.essay-body {
+  max-width: 660px; margin: 0 auto; padding: 80px 52px 120px;
+}
+.essay-body p {
+  font-size: 15px; line-height: 2.4; color: var(--text-muted);
+  margin-bottom: 2em; letter-spacing: 0.03em;
+}
+.essay-nav {
+  border-top: 1px solid var(--border);
+  padding: 52px; display: flex; justify-content: space-between; align-items: center;
+}
+.essay-nav a {
+  font-family: 'Noto Sans JP', sans-serif; font-size: 11px;
+  letter-spacing: 0.15em; color: var(--text-faint); text-decoration: none;
+  transition: color 0.2s;
+}
+.essay-nav a:hover { color: var(--text); }
+footer {
+  padding: 32px 52px; display: flex; justify-content: space-between;
+  align-items: center; border-top: 1px solid var(--border);
+  font-family: 'Noto Sans JP', sans-serif; font-size: 10px;
+  letter-spacing: 0.12em; color: var(--text-faint);
+}
+@media (max-width: 768px) {
+  nav { padding: 16px 22px; }
+  .essay-hero { padding: 100px 22px 48px; }
+  .essay-body { padding: 52px 22px 80px; }
+  .essay-nav { padding: 32px 22px; flex-direction: column; gap: 16px; text-align: center; }
+  footer { flex-direction: column; gap: 6px; text-align: center; padding: 24px 22px; }
+}
+
+</style>
+</head>
+<body>
+<nav>
+  <a href="index.html" class="nav-logo">おふとんだいすきくらぶ</a>
+  <a href="index.html#essay" class="nav-back">← Essay 一覧</a>
+</nav>
+
+<div class="essay-hero">
+  <div class="essay-eyebrow">Essay No.02</div>
+  <h1 class="essay-title">Independent Girl</h1>
+</div>
+
+<div class="essay-body">
+          <p>フィギュアスケートのペアの演技を見た。羽生結弦とか、なんかすごい人のやつは数回見たことがあったものの、ペアのスケートを見るのは初めてで。何が起きるのか、と思って見ていたら、女がすごい振り回されていた。（窓られそう）</p>
+          <p>持ち上げられ、回され、片手で掲げられ、逆にされ、横にされ、頭の上でフィニッシュ。何事だよ。私の頭の中は、るるうに剣心に出てくる「斬馬刀」を振り回す左之助の映像でいっぱいになった。</p>
+          <p>それと同時に、「ペアを恋愛の意味で茶化するな」という意図のポストも流れてきた。日本だけなのか世界共通なのかは知らんが、野球のバッテリーも夫婦、ドラムとベースも夫婦と揶擦られる。そんな国で、ペアのダンスを茶化するという高貴な望みは叶うはずがない、と思ったのだが、冷静になれば、自分が愛した女をあそこまで振り回せるのだろうか。</p>
+          <p>恋愛感情がなく、信頼関係のみだからこそ成り立つ競技ではないかと思う。中には恋愛感情があるペアもいるだろう。大喧嘩の翌日の練習でどうメンタルを保つのか聞いてみたいところだ。</p>
+          <p>もし自分がフィギュアスケートのペアの演技をするなら、のように変な妄想をするのが趣味なのだが、一旦推しグルの小さい子で想像してみた。男のように女を抱えられるとは思えなかった。</p>
+          <p>で、怖すぎて無理無理無理無理無理になった。一華も上で叫んでいる。どうにか掲げることはできたが、逆さにはできない。でもなぜか金メダルを獲りたい気持ちは湧いてきた。絶対に勝勝しような！</p>
+          <p>逆に、男に振り回される自分も想像した。腹が立って仕方がない。</p>
+          <p>この私を？ほぼ半裸にして？寒いところに連れ出して？持ち上げ逆さにして掲げて？何を考えているのか。腹が立って仕方がない。</p>
+          <p>寝込んで顔洗えなくてもずっとツヤヤピカピカなんだろうな。クソ腹立つわ〜。</p>
+</div>
+
+<div class="essay-nav">
+  <a href="gakon.html">← ガコンッ</a>
+  <a href="index.html#essay">Essay 一覧</a>
+  <a href="tsuyoku-narisugita.html">強くなりすぎた →</a>
+</div>
+
+<footer>
+  <span>© 2026 真緒 / おふとんだいすきくらぶ</span>
+  <span>Osaka / Hokkaido</span>
+</footer>
+</body>
+</html>
