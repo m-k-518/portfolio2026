@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>福岡行った — おふとんだいすきくらぶ</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300;400;500&family=Noto+Sans+JP:wght@300;400&family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+:root {
+  --bg: #f7f4ee; --bg2: #f0ece3; --text: #2a2824;
+  --text-muted: #6a6660; --text-faint: #aaa89e;
+  --accent: #7a6a52; --border: #ddd9d0; --dark: #1e1c18;
+}
+html { scroll-behavior: smooth; }
+body {
+  background: var(--bg); color: var(--text);
+  font-family: 'Noto Serif JP', serif; font-weight: 300;
+  line-height: 1.8; overflow-x: hidden;
+}
+nav {
+  position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 20px 52px;
+  background: rgba(247,244,238,0.92); backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--border);
+}
+.nav-logo {
+  font-family: 'Noto Serif JP', serif; font-size: 13px; font-weight: 400;
+  letter-spacing: 0.12em; color: var(--text); text-decoration: none;
+}
+.nav-back {
+  font-family: 'Noto Sans JP', sans-serif; font-size: 11px; font-weight: 300;
+  letter-spacing: 0.18em; color: var(--text-muted); text-decoration: none;
+  transition: color 0.2s;
+}
+.nav-back:hover { color: var(--text); }
+.essay-hero {
+  min-height: 50vh; display: flex; flex-direction: column;
+  justify-content: flex-end; padding: 140px 52px 64px;
+  border-bottom: 1px solid var(--border);
+}
+.essay-eyebrow {
+  font-family: 'EB Garamond', serif; font-size: 11px;
+  color: var(--text-faint); letter-spacing: 0.25em; margin-bottom: 24px;
+}
+.essay-title {
+  font-family: 'Noto Serif JP', serif;
+  font-size: clamp(32px, 5vw, 64px); font-weight: 300;
+  line-height: 1.4; letter-spacing: 0.04em; color: var(--dark);
+}
+.essay-body {
+  max-width: 660px; margin: 0 auto; padding: 80px 52px 120px;
+}
+.essay-body p {
+  font-size: 15px; line-height: 2.4; color: var(--text-muted);
+  margin-bottom: 2em; letter-spacing: 0.03em;
+}
+.essay-nav {
+  border-top: 1px solid var(--border);
+  padding: 52px; display: flex; justify-content: space-between; align-items: center;
+}
+.essay-nav a {
+  font-family: 'Noto Sans JP', sans-serif; font-size: 11px;
+  letter-spacing: 0.15em; color: var(--text-faint); text-decoration: none;
+  transition: color 0.2s;
+}
+.essay-nav a:hover { color: var(--text); }
+footer {
+  padding: 32px 52px; display: flex; justify-content: space-between;
+  align-items: center; border-top: 1px solid var(--border);
+  font-family: 'Noto Sans JP', sans-serif; font-size: 10px;
+  letter-spacing: 0.12em; color: var(--text-faint);
+}
+@media (max-width: 768px) {
+  nav { padding: 16px 22px; }
+  .essay-hero { padding: 100px 22px 48px; }
+  .essay-body { padding: 52px 22px 80px; }
+  .essay-nav { padding: 32px 22px; flex-direction: column; gap: 16px; text-align: center; }
+  footer { flex-direction: column; gap: 6px; text-align: center; padding: 24px 22px; }
+}
+</style>
+</head>
+<body>
+<nav>
+  <a href="index.html" class="nav-logo">おふとんだいすきくらぶ</a>
+  <a href="index.html#essay" class="nav-back">← Essay 一覧</a>
+</nav>
+
+<div class="essay-hero">
+  <div class="essay-eyebrow">Essay No.05</div>
+  <h1 class="essay-title">福岡行った</h1>
+</div>
+
+<div class="essay-body">
+  <p>心身の、とくに身の方がまだズタボロな三月半ば。歩けるようになったものの、ふくらはぎが破裂寸前までパンパンでガッチガチ。</p>
+  <p>何十分も続けて歩くことができないけれど、旅行大好きマンの私にとって最高な仕事の話をいただいたので、北部高原の硬いパン並みの足を引きずって福岡に来た。</p>
+  <p>最初のトラブルは山陽新幹線の遅延。約二時間半ほど遅れ、福岡名物ランチの予定が狂った。仕方がないのでベローチェのパスタを食べた。</p>
+  <p>新幹線の遅延により取材先のイベントも一時間押し、福岡名物ディナーの予定も狂った。狂ったが、狂いをリカバリーできるご飯にたどり着けた。タクシーの運転手が教えてくれた激安博多ラーメンだ。</p>
+  <p>このご時世に二百九十円でラーメンが食べられるなんて。百円で辛子高菜をトッピングしたラーメンを吸い込んだ。案の定、次の日の朝は顔がパンパンであった。</p>
+  <p>自分の性質上、食べたい、行きたいと思っても現実にしない（予定だけ立てて満足・気分で動く）節がある。</p>
+  <p>しかし、福岡といえば、的なものを何か一つは絶対に食べたい。保険として明太子食べ放題の朝食がついているホテルを選んだ。大正解だった。デザート的に一口おはぎが並んでいたのもポイント高し。私の好きなおやつはおはぎだ。</p>
+  <p>だが、文句が一つある。味噌汁が甘かった。味噌汁が甘くなることあるの？というか甘くする意味は？なぜ味噌が甘い？好き嫌いはない方だが、苦手な食べ物がひとつ増えた。味噌汁はしょっぱいに限る。</p>
+  <p>チェックアウト後はコーヒーをしばきに博多駅へ。行き当たりばったり派なので、地下鉄に乗りながらカフェを探し、のこのこと足を運んだ。</p>
+  <p>廃れたビルの地下にある雰囲気のいい喫茶店。コーヒーの種類が豊富だし、淹れ方にもこだわりがあり、私の中のエモイキリ部分が喜んでいる。</p>
+  <p>コーヒーを茶こしで淹れてもらうのは初めてだ。飲み比べていないので、何が違うのかよくわからなかった。同行者がほしかった。</p>
+  <p>その後は博多駅の中で蕎麦を食べ、三日月のクロワッサンを四つほど、あんぱんを一つ購入し、新幹線へ乗り込み、帰路へ。自宅へ帰りつき、さっさとシャワーと飯を済ませ寝て、起きて、今。右足の甲がむくみ過ぎてぷるぷるしている。</p>
+  <p>人体ってすごいね。</p>
+</div>
+
+<div class="essay-nav">
+  <a href="futomomo-kayui.html">← 太ももが痒い</a>
+  <a href="index.html#essay">Essay 一覧</a>
+  <span></span>
+</div>
+
+<footer>
+  <span>© 2026 真緒 / おふとんだいすきくらぶ</span>
+  <span>Osaka / Hokkaido</span>
+</footer>
+</body>
+</html>
